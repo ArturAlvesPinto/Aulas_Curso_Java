@@ -1,0 +1,58 @@
+Java Aula - 1
+
+_______________________________________________________________
+
+TIPOS de PROGRAMAÇÃO
+
+Orientação Objeto
+Estruturado
+
+_______________________________________________________________
+
+Classes - Uma classes descreve um conjunto de objetos com as mesmas propriedades, comportamento, relacionamento, semantica.
+
+Objetos - São as instancias da classe
+
+Palavras reservadas - São palavras que são 'comandos' da própria linguagem e não podem ser utilizadas para criação de variáveis, class, etc.
+
+Variáveis - TipoVariaveis nomeVariavel
+
+_______________________________________________________________
+
+Criando projeto no eclipse. (File > New > Project > created java project)
+
+
+Criando Class:
+
+	Classe em Java -> tem que começar com a letra Maíuscula (CamelCase)
+	Marcar o 'public static void main' -> Gera este método
+	*Nome da Class Public tem que ser o mesmo nome do Arquivo
+	'public static void main' -> É um principal quando estiver marcado será o que for executado dentro do bloco de código.
+	
+Código:
+
+	Só classes com 'public static void main' são executáveis (precisa do main)
+	Diferença entre "" (Este é usado para String) e '' (Este é usado como char)
+	
+Tipo primitivos:
+	
+	Lógica = Boolean;
+	Inteiro = byte(8bits), short(16bits), int(32bits), long(64bits) - pode ser usado para otimizar o processamento ocupando menos espaço na memária
+	Decimais = float(16bits), double(32bits)
+	Caracter = char (1 único caracter)
+	
+Tipos de variáveis:
+	
+	De Classe = Pertencem a classe como um todo
+	De Objeto = pertencem ao objeto
+	Local = Pertence a um único escopo, uma function por exemplo
+	
+Constantes:
+	
+	Para decalrar uma constante em JAVA basta usar a palavra-chave final
+	Por convenção mantém todas as letras maíusculas.
+	
+	
+	
+	
+	

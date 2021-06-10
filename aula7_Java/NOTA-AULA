@@ -1,0 +1,19 @@
+AULA 7
+
+Classe Abstrata:
+
+
+	É utilizada para gerar atravez dela outras classes.
+
+	Precisa ter no mínimo 1 método abstrato.
+	
+	Tem um conceito similar ao da interface, se você der um extends para a classe abstrata será necessário
+	acionar os métodos lá declarados.
+	
+	Diferença entre class abstrata e interface é que a primeira é extendida e a segunda é implementada.
+	
+	Vantagens ? No JAVA só possível extender (extends) uma class, porém você pode fazer várias implements !!!
+	
+	
+	
+Ciação de arquivos em JAVA :

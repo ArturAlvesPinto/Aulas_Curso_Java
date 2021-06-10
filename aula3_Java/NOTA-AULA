@@ -1,0 +1,22 @@
+Java Aula - 3
+
+_______________________________________________________________
+
+O for serve para realizar repitições.
+Para usar esta função é estabelecido 3 condições pricipais:
+	condição inicial
+	condição de parada
+	iteração
+
+Métodos
+
+	Métodos são operações estabelecidas dentro de uma class, o qual
+	podem ser acessados em outro local como uma função da class em 
+	que foi criado.
+
+	Um método pode ter um retorno (String, Integer, Double, Boolean, ...)
+	ou pode não ter retorno (Void).
+	
+
+
+_______________________________________________________________

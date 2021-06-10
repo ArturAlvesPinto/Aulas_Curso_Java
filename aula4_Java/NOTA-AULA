@@ -1,0 +1,19 @@
+Java Aula - 4
+
+_______________________________________________________________
+
+Interface:
+
+Não é herdado, é implementado. Dá opção de acessar mais de uma
+classe.
+
+Interface é uma classe abstrata. Isto é, não pode ter objetos
+nela.
+
+AutoAcoplamento: Quando muda na mãe muda também nas classes filhos
+
+Coesão: A classe faz só o que precisar fazer realmente.
+Métodos Locais.	
+
+
+_______________________________________________________________

@@ -1,0 +1,49 @@
+Java Aula - 2
+
+_______________________________________________________________
+Definicao da Engenharia de Software
+
+Atributos são sempre 'private'
+Métodos são 'public'
+
+Para abstair características em uma class deve ser considerado de maneira mais geral,
+fugindo de condições muito específicas. (Generalizacao)
+
+Depois é possível especializar a classe com condições específicas. (Especificação)
+
+Class public tem o mesmo nome do arquivo .java (só é possível ter uma por arquivo)
+
+COnceito de orientação objeto é padrão para todas as linguagens.
+
+O que é uma class coeza ?	Ela precisa ter e fazer apenas caracteríticas para qual foi criada.
+
+Tudo que abre e fecha parentese é um método.
+
+Objeto é o que faz a representacao na class. Objeto são instancias de uma class.
+
+Para um atributo ser acessível em outra class, é preciso criar métodos publicos para eles.
+
+Atributo privado tem acesso direto dentro da própria class.
+
+
+Conceitos da Orientação Objeto HERANÇA -> GENERALIZACAO X ESPECIALIZAZAO
+	
+	Neste caso é possível criar uma class 'mãe' com atributos mais genericos e uma outra class que
+	seria a 'filho', a qual vai ter atributos mais especificos e herda os genericos da class mae
+	
+	Uma class especializada tem como finalidade adicionar atributos especificos.
+	
+	Vantagem : Reaproveitamento de código;
+	Desvantagem : Ao alterar a class mãe todas classes depentendes sofreram alteracao
+	
+	Herança Multipla => Uma class tem duas mães. Não é aplicável ao JAVA. Aplicável a Python e C# por exemplo.
+	
+Conceito de STATIC (modificador diferenciado)
+	
+	Significa que ele pertence a class como um todo e não a um objeto específico.
+	Não precisa/deve estar associado a um método.
+	Quanto voce seta valores no atributo static e pede para mostrar ele sempre aponta para o ultimo value setato,
+		como se fosse sobrescrito. Isso acontece pois ele pertence a class e não a um objeto.
+	Não é possível utilizar atributo e métodos não staticos em uma static.
+
+_______________________________________________________________

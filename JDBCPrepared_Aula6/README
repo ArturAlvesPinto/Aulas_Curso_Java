@@ -1,0 +1,51 @@
+
+Neste projeto da Aula 6 de JAVA estaremos criando e configurando as conexões JDBC com o 
+bando de dados MySQL.
+
+
+É importante lembrar de configurar o Banco de Dados.
+
+
+Como definir os models do projeto ?
+No caso é utilizado um model pela necessidade de trabalhar com cada objeto e suas propriedades.
+Isso significa que um model é a representação de um objeto.
+
+PASSOS:
+> Criado class conexão
+
+
+> Criado Models
+	- Criado um models (class) para o objeto que reprenstará usuário;
+	
+	
+> Criado Interfaces
+	- Criado uma interface para o objeto que reprenstará usuário
+	
+	
+> Criado Dao's
+	- Criado o Dao de Usuario;
+	- Configurado para ser um extends de Conexao e aplica métidos de IUsuaruio (implements);
+	- Criado atributos de conexão (Connection, PreparedStatement, ResultSet e Statement);
+	- Criação dos métodos provenientes da interface IUsauario;
+	- Criação da tabela usuario no banco, por meio do SQL 
+		
+		(SQL -> 
+	
+		create table usuario(
+
+		id int AUTO_INCREMENT primary key,
+		nome varchar(256),
+		email varchar(256),
+		login varchar(60),
+		senha varchar(10)
+
+		););
+		
+	- Criação de uma class Principal (void static main) para execução de testes;
+		
+		Adição do throws a class para tratamento de Exceptions
+		Adição dos métodos CRUD para realização de testes hardCode
+
+
+
+
